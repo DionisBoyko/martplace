@@ -1,0 +1,13 @@
+$bg-grey: #eff1f5;
+$bg-blue: #0674ec;
+$fiolet: #7347c1;
+$grey: #555;
+$ired: #ff6a6c;
+$green: #77de51;
+$blue: #58c9e9;
+$yellow: #feb71d;
+
+@mixin flex {
+   display: flex;
+   justify-content: space-between;
+}
