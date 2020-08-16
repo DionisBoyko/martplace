@@ -8,15 +8,28 @@ html {
    box-sizing: inherit;
 }
 
-a{
+a {
    text-decoration: none;
 }
 
 
 body {
-   
-}
-.container {
- 
+   font-family: "Quicksand", sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   color: $grey;
 }
 
+.container {
+   max-width: 1170px;
+   width: 100%;
+   padding: 0 15px;
+}
+
+.btn-bold {
+   min-width: 190px;
+   width: 100%;
+   background-color: #fff;
+   padding: 13px 5px;
+   color: $bg-blue;
+}
