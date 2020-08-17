@@ -4,6 +4,16 @@
 
 //* header start
 
+.header {
+   &__contact {
+      height: 100px;
+      background-color: $bg-grey;
+   }
+}
+.header__inner {
+   @include flex; 
+   align-items: center;
+}
 
 
 //* header end
